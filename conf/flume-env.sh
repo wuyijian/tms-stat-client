@@ -22,7 +22,7 @@
 export JAVA_HOME="/opt/taomee/javatool/jdk"
 
 # Give Flume more memory and pre-allocate, enable remote monitoring via JMX
-export JAVA_OPTS="-Xms200m -Xmx200m -Dcom.sun.management.jmxremote"
+export JAVA_OPTS="-Xms200m -Xmx200m -Dcom.sun.management.jmxremote -Duser.timezone=GMT+08"
 
 # Let Flume write raw event data and configuration information to its log files for debugging
 # purposes. Enabling these flags is not recommended in production,
